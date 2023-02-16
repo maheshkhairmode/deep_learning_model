@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOUSTON HOUSE PRICE</title>
+</head>
+<body background="mk.jpg">
+    <h1>WEL COME TO HOUSE PRICE PREDICTION</h1>
+    <form method="POST" action="/price">
+        <tr>
+            <td>
+                <label>CRIM:</label>
+                <input type="text"name="CRIM">
+                </select>
+            </td>
+            <td>
+                <label>ZN:</label>
+                <input type="text"name="ZN">
+                </select>
+            </td>
+            <td>
+                <label>INDUS:</label>
+                <input type="text"name="INDUS">
+                </select>
+            </td>
+            <td>
+                <label>CHAS:</label>
+                <input type="text"name="CHAS">
+                </select>
+            </td>
+        </tr>
+
+        <br>
+        <br>
+
+        <tr>
+            <td>
+                <label>NOX:</label>
+                <input type="text"name="NOX">
+                </select>
+            </td>
+            <td>
+                <label>RM:</label>
+                <input type="text"name="RM">
+                </select>
+            </td>
+            <td>
+                <label>AGE:</label>
+                <input type="text"name="AGE">
+                </select>
+            </td>
+            <td>
+                <label>DIS:</label>
+                <input type="text"name="DIS">
+                </select>
+            </td>
+        </tr>
+
+        <br>
+        <br>
+
+        <tr>
+            <td>
+                <label>RAD:</label>
+                <input type="text"name="RAD">
+                </select>
+            </td>
+            <td>
+                <label>TAX:</label>
+                <input type="text"name="TAX">
+                </select>
+            </td>
+            <td>
+                <label>PTRATIO:</label>
+                <input type="text"name="PTRATIO">
+                </select>
+            </td>
+            <td>
+                <label>B:</label>
+                <input type="text"name="B">
+                </select>
+            </td>
+            <td>
+                <label>LSTAT:</label>
+                <input type="text"name="LSTAT">
+                </select>
+            </td>
+        </tr>
+
+        <input type="submit" value="SUBMIT">
+
+        <br>
+        <br>
+
+        <tr>
+            <td>
+                <p>BOUSTON HOUSE PRICE IS IN $ <b>{{prediction}}</b></p>
+            </td>
+
+
+        </tr>
+
+            </form>
+    
+</body>
+</html>
